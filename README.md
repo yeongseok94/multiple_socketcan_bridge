@@ -15,6 +15,7 @@ cd ~/catkin_ws/src
 git clone https://github.com/ros-industrial/ros_canopen
 cd ros_canopen
 git clone https://github.com/yeongseok94/multiple_socketcan_bridge.git
+cd ~/catkin_ws && catkin_make
 ```
 
 ## Usage
