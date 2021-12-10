@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>multiple_socketcan_bridge</name>
+  <version>0.1.0</version>
+  <description>Conversion nodes for messages from SocketCAN to a ROS Topic and vice versa.</description>
+
+  <maintainer email="argeophia@gmail.com">Yeongseok Lee</maintainer>
+  <author email="ivor@iwanders.net">Ivor Wanders</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>can_msgs</depend>
+  <depend>rosconsole_bridge</depend>
+  <depend>roscpp</depend>
+  <depend>socketcan_interface</depend>
+
+  <test_depend>roslint</test_depend>
+  <test_depend>rostest</test_depend>
+  <test_depend>rosunit</test_depend>
+</package>

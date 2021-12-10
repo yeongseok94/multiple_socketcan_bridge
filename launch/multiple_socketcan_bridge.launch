@@ -1,0 +1,18 @@
+<launch>
+  <node ns="can0" pkg="multiple_socketcan_bridge" type="multiple_socketcan_bridge_node" name="multiple_socketcan_bridge_node" output="screen">
+    <param name="can_device" value="can0" />
+  </node>
+
+  <node ns="can1" pkg="multiple_socketcan_bridge" type="multiple_socketcan_bridge_node" name="multiple_socketcan_bridge_node" output="screen" >
+    <param name="can_device" value="can1" />
+  </node>
+  
+  <node ns="can2" pkg="multiple_socketcan_bridge" type="multiple_socketcan_bridge_node" name="multiple_socketcan_bridge_node" output="screen" >
+    <param name="can_device" value="can2" />
+  </node>
+  
+  <node ns="can3" pkg="multiple_socketcan_bridge" type="multiple_socketcan_bridge_node" name="multiple_socketcan_bridge_node" output="screen" >
+    <param name="can_device" value="can3" />
+  </node>
+</launch>
+
